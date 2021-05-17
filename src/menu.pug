@@ -1,0 +1,9 @@
+p
+    a#homeLink(href="index.html") Home
+each item in menu
+    if item.path == pagePath
+        p
+            a(href=item.path + ".html", class=item.activeClass)=item.text
+    else
+        p
+            a(href=item.path + ".html", class=item.passiveClass)=item.text

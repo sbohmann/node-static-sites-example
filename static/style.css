@@ -1,0 +1,54 @@
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: defalut;
+}
+
+a:link {
+  color: defalut;
+}
+
+a:active {
+  color: defalut;
+}
+
+a:visited {
+  color: defalut;
+}
+
+a:hover {
+  color: defalut;
+}
+
+a#homeLink {
+  font-size: larger;
+  font-weight: bolder;
+  color: purple;
+}
+
+a.redForeground {
+  color: red;
+}
+
+a.redBackground {
+  background-color: pink;
+}
+
+a.greenForeground {
+  color: green;
+}
+
+a.greenBackground {
+  background-color: lightgreen;
+}
+
+a.blueForeground {
+  color: blue;
+}
+
+a.blueBackground {
+  background-color: lightblue;
+}

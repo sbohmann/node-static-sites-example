@@ -1,0 +1,22 @@
+{
+  "menu": [
+    {
+      "path": "red",
+      "text": "RED",
+      "activeClass": "redBackground",
+      "passiveClass": "redForeground"
+    },
+    {
+      "path": "green",
+      "text": "GREEN",
+      "activeClass": "greenBackground",
+      "passiveClass": "greenForeground"
+    },
+    {
+      "path": "blue",
+      "text": "BLUE",
+      "activeClass": "blueBackground",
+      "passiveClass": "blueForeground"
+    }
+  ]
+}
