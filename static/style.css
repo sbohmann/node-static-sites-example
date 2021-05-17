@@ -1,54 +1,66 @@
 body {
   font-family: sans-serif;
+  background-color: #333;
+  color: #eeeecc;
+}
+
+#menu {
+  float: left;
+  width: 100px;
+  margin: 0 25px 10px 0;
+  padding: 5px 15px;
+  background-color: #282828;
 }
 
 a {
   text-decoration: none;
-  color: defalut;
-}
-
-a:link {
-  color: defalut;
-}
-
-a:active {
-  color: defalut;
-}
-
-a:visited {
-  color: defalut;
-}
-
-a:hover {
-  color: defalut;
+  color: inherit;
 }
 
 a#homeLink {
   font-size: larger;
   font-weight: bolder;
-  color: purple;
 }
 
-a.redForeground {
-  color: red;
+#menu div {
+  left: 0px;
+  right: 0px;
+  padding: 0;
+  margin: 0;
+  width: auto;
+  margin: 10px;
 }
 
-a.redBackground {
+#menu div a {
+  display: block;
+  left: 0;
+  right: 0;
+  padding: 5px;
+  margin: 0;
+  width: auto;
+  color: black;
+}
+
+#menu div a.redPassive {
+  color: #cc9999;
+}
+
+#menu div a.redActive {
   background-color: pink;
 }
 
-a.greenForeground {
-  color: green;
+#menu div a.greenPassive {
+  color: #99cc99;
 }
 
-a.greenBackground {
+#menu div a.greenActive {
   background-color: lightgreen;
 }
 
-a.blueForeground {
-  color: blue;
+#menu div a.bluePassive {
+  color: #9999cc;
 }
 
-a.blueBackground {
-  background-color: lightblue;
+#menu div a.blueActive {
+  background-color: #6ae;
 }

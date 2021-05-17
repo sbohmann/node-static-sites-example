@@ -3,20 +3,20 @@
     {
       "path": "red",
       "text": "RED",
-      "activeClass": "redBackground",
-      "passiveClass": "redForeground"
+      "activeClass": "redActive",
+      "passiveClass": "redPassive"
     },
     {
       "path": "green",
       "text": "GREEN",
-      "activeClass": "greenBackground",
-      "passiveClass": "greenForeground"
+      "activeClass": "greenActive",
+      "passiveClass": "greenPassive"
     },
     {
       "path": "blue",
       "text": "BLUE",
-      "activeClass": "blueBackground",
-      "passiveClass": "blueForeground"
+      "activeClass": "blueActive",
+      "passiveClass": "bluePassive"
     }
   ]
 }
