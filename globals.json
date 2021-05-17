@@ -1,19 +1,19 @@
 {
   "menu": [
     {
-      "path": "red",
+      "path": "colorPages/red",
       "text": "RED",
       "activeClass": "redActive",
       "passiveClass": "redPassive"
     },
     {
-      "path": "green",
+      "path": "colorPages/green",
       "text": "GREEN",
       "activeClass": "greenActive",
       "passiveClass": "greenPassive"
     },
     {
-      "path": "blue",
+      "path": "colorPages/blue",
       "text": "BLUE",
       "activeClass": "blueActive",
       "passiveClass": "bluePassive"
